@@ -1,0 +1,224 @@
+/* Css Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body *,
+html * {
+  box-sizing: border-box;
+}
+body * {
+  font-family: Helvetica, Arial, Lucida, sans-serif;
+}
+/* Variables */
+:root {
+  --success-button-bg: #2ecc71;
+  --success-button-hover-bg: #27ae60;
+}
+
+/* Common classes */
+.hide {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* change to . later */
+#loader {
+  position: absolute;
+  left: 24px;
+  top: 42px;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding: 0 22px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* header classes */
+
+header {
+  padding: 14px 20px;
+  background-color: rgba(10, 10, 10, 1);
+  color: #fff;
+}
+
+h4.main-title {
+  margin: 0;
+  margin: 40px 0 0;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+  font-size: 20px;
+}
+h5.mini-title {
+  margin: 0;
+  color: #8c8686;
+  padding: 40px 0px;
+  margin-bottom: 2px;
+  line-height: 22px;
+  text-align: left;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  h4.main-title {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  h5.mini-title {
+    padding: 18px 0px;
+    margin-bottom: 2px;
+    line-height: 14px;
+    font-size: 16px;
+  }
+}

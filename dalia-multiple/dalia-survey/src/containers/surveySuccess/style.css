@@ -1,0 +1,20 @@
+h4.success__heading {
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+button.success__button {
+  font-size: 16px;
+  background-color: var(--success-button-bg);
+  border-radius: 8px;
+  border: 0;
+  padding: 12px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+button.success__button:hover {
+  background-color: var(--success-button-hover-bg);
+}

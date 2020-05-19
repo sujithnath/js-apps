@@ -1,0 +1,44 @@
+.survey-options {
+  margin: 20px 0;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+}
+
+li.list-item {
+  cursor: pointer;
+  border: 1px solid #eaeaea;
+  padding: 20px 15px;
+  border-radius: 4px;
+  background-color: #eeeeee8c;
+}
+
+li.list-item:hover {
+  background-color: #f1efef14;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+h3.list-item__heading {
+  padding-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p.list-item__desc {
+  font-size: 14px;
+  line-height: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .survey-options {
+    grid-template-columns: 1fr;
+  }
+  h3.list-item__heading {
+    padding-bottom: 6px;
+    font-size: 14px;
+  }
+
+  p.list-item__desc {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dalia User Survey</title>
+  </head>
+  <body>
+    <header>
+      <img
+        width="44px"
+        class="logo-holder"
+        srcset="https://daliaresearch.com/wp-content/uploads/2019/06/Dalialogo.png"
+      />
+    </header>
+
+    <div class="container">
+      <div id="loader" class="hide">Loading...</div>
+      <section id="surveyOptionsHolder">
+        <h4 class="main-title">Choose any options from below</h4>
+        <ul id="surveyOptions" class="survey-options"></ul>
+      </section>
+
+      <section class="hide" id="surveyQuestionsHolder">
+        <h4 id="mainTitle" class="main-title">
+          Choose any options from below
+          <span class="count"></span>
+        </h4>
+        <div id="surveyQuestionsList" class="text-left"></div>
+        <div
+          id="surveyActionHolders"
+          class="text-right block-next hide-submit block-submit block-prev"
+        >
+          <!-- <button id="restart" class="question__restart-button">
+            restart
+          </button> -->
+          <button id="prev" class="question__prev-button">previous</button>
+          <button id="next" class="question__next-button">next</button>
+          <button id="submit" class="question__submit-button">
+            submit
+          </button>
+        </div>
+      </section>
+
+      <section class="text-center hide" id="successScreenHolder">
+        <h4 class="success__heading">
+          Thanks for answering the survey!
+        </h4>
+        <div>
+          <button class="success__button">
+            Click here to start a new Survey again
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
